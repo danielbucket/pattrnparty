@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>nothing</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./accordion/accordion.css">
+    <link rel="stylesheet" href="./flexibleCards/flexibleCards.css">
+    <link rel="stylesheet" href="./headerBar/headerBar.css">
+  </head>
+  <body>
+    <header>
+      <h2 class="header-text header-name">PATTRN<span class="party">PARTY</span></h2>
+      <h2 class="header-text student-name">Bucket</h2>
+    </header>
+    <div class="pattrn-divider">
+      <h5 class="pattrn-title">Accordion</h5>
+      <div class="line-break"></div>
+    </div>
+    <article id="accordion">
+      <div class="accordion-container">
+        <div class="buttons" >
+          <button id="btn-1" type="button" class="desktop-accordion-btn accordion-btn" name="button">Tab 1</button>
+          <button id="btn-2" type="button" class="desktop-accordion-btn accordion-btn" name="button">Tab 2</button>
+          <button id="btn-3" type="button" class="desktop-accordion-btn accordion-btn" name="button">Tab 3</button>
+          <button id="btn-4" type="button" class="desktop-accordion-btn accordion-btn" name="button">Tab 4</button>
+        </div>
+        <section class="section-body">
+          <div class="tab">
+            <button id="btn-1" type="button" class="mobile-accordion-btn accordion-btn" name="button">Tab 1</button>
+            <div class="plus-icon minus-icon"></div>
+          </div>
+          <div id="tab-container-1" class="display tab-container">
+            <img class="placeholder-img" src="./assets/placeholder.png">
+            <div class="content">
+              <h4 class="tab-header">What is Lorem Ipsum?</h4>
+              <p class="paragraph p-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+          </div>
+        </section>
+        <section  class="section-body">
+          <div class="tab">
+            <button id="btn-2" type="button" class="mobile-accordion-btn accordion-btn" name="button">Tab 2</button>
+            <div class="plus-icon minus-icon"></div>
+          </div>
+          <div id="tab-container-2" class="display tab-container">
+            <img class="placeholder-img" src="./assets/placeholder.png">
+            <div class="content">
+              <h4 class="tab-header">Where does it come from?</h4>
+              <p class="paragraph p-2">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+            </div>
+          </div>
+        </section>
+        <section class="section-body">
+          <div class="tab">
+            <button id="btn-3" type="button" class="mobile-accordion-btn accordion-btn" name="button">Tab 3</button>
+            <div class="plus-icon minus-icon"></div>
+          </div>
+          <div id="tab-container-3" class="display tab-container">
+            <img class="placeholder-img" src="./assets/placeholder.png">
+            <div class="content">
+              <h4 class="tab-header">Why do we use it?</h4>
+              <p class="paragraph p-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            </div>
+          </div>
+        </section>
+        <section class="section-body">
+          <div class="tab">
+            <button id="btn-4" type="button" class="mobile-accordion-btn accordion-btn" name="button">Tab 4</button>
+            <div class="plus-icon minus-icon"></div>
+          </div>
+          <div id="tab-container-4" class="display tab-container">
+            <img class="placeholder-img" src="./assets/placeholder.png" alt="">
+            <div class="content">
+              <h4 class="tab-header">Where can I get some?</h4>
+              <p class="paragraph p-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </article>
+    <div class="view-code-btn-container" >
+      <button class="view-code-btn">View Code</button>
+    </div>
+    <div class="pattrn-divider">
+      <h5 class="pattrn-title">Flexible Cards</h5>
+      <div class="line-break"></div>
+    </div>
+    <article class="flexible-cards">
+      <div class="flexible-cards-container">
+        <div class="card-1 card">
+          <h4 class="card-title">Card 1</h4>
+          <img class="flexible-img" src="./assets/placeholder.png" alt="">
+        </div>
+        <div class="card-2 card">
+          <h4 class="card-title">Card 2</h4>
+          <img class="flexible-img" src="./assets/placeholder.png" alt="">
+        </div>
+        <div class="card-3 card">
+          <h4 class="card-title">Card 3</h4>
+          <img class="flexible-img" src="./assets/placeholder.png" alt="">
+        </div>
+        <div class="card-4 card">
+          <h4 class="card-title">Card 4</h4>
+          <img class="flexible-img" src="./assets/placeholder.png" alt="">
+        </div>
+        <div class="card-5 card">
+          <h4 class="card-title">Card 5</h4>
+          <img class="flexible-img" src="./assets/placeholder.png" alt="">
+        </div>
+        <div class="card-6 card">
+          <h4 class="card-title">Card 6</h4>
+          <img class="flexible-img" src="./assets/placeholder.png" alt="">
+        </div>
+        <div class="card-7 card">
+          <h4 class="card-title">Card 7</h4>
+          <img class="flexible-img" src="./assets/placeholder.png">
+        </div>
+      </div>
+    </article>
+     <div class="view-code-btn-container" >
+      <button class="view-code-btn">View Code</button>
+    </div>
+   <div class="pattrn-divider">
+      <h5 class="pattrn-title">Header Bar</h5>
+      <div class="line-break"></div>
+    </div>
+    <article class="header-bar">
+      <div class="header">
+        <img class="header-img" src="./assets/placeholder.png">
+        <h2 class="menu-text">MENU</h2>
+      </div>
+      <div id="header-thing" class="desktop-header mobile-header">
+        <ul class="tab-list">
+          <li class="nav-link-tab">Navigation Link 1</li>
+          <li class="nav-link-tab">Navigation Link 2</li>
+          <li class="nav-link-tab">Navigation Link 3</li>
+        </ul>
+        <input class="search-bar" placeholder="Search" type="text">
+      </div>
+     </article>
+     <div class="view-code-btn-container" >
+      <button class="view-code-btn">View Code</button>
+    </div>
+    <script type="text/javascript" src="./accordion/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./accordion/scripts.js"></script>
+    <script type="text/javascript" src="./headerBar/headerBar.js"></script>
+  </body>
+</html>
